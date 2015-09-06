@@ -3,8 +3,16 @@
  NAT penetration tradeoffs chart
 =================================
 
+
+motivation
+``````````
+
 Network Address Translation violates the end to end principal, making it much more difficult
 to build decentralized systems on the Internet.
+
+
+NAT penetration tradeoffs chart
+```````````````````````````````
 
 +----------------------------------------+---------------------------------------------------------------------------------------+
 | Design Property                        | Proposed NAT penetration solution                                                     |
@@ -23,10 +31,12 @@ to build decentralized systems on the Internet.
 +----------------------------------------+-------------------+----------------------+-------------+-------------+---------+------+
 | not yet implemented                    |                   |\+                    |             |             |         |      |
 +----------------------------------------+-------------------+----------------------+-------------+-------------+---------+------+
-| uses a centralized rendezvous          |                   |                      |\+           |             |         |      |
+| uses a centralized rendezvous          |                   |                      |\+           |\+           |         |      |
 +----------------------------------------+-------------------+----------------------+-------------+-------------+---------+------+
 | varrying implementation quality        |                   |                      |             |\+           |\+       |\+    |
 +----------------------------------------+-------------------+----------------------+-------------+-------------+---------+------+
 
 
+evaluation of designs
+`````````````````````
 
