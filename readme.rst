@@ -7,7 +7,15 @@ motivation
 ``````````
 
 Network Address Translation violates the end to end principal, making it much more difficult
-to build decentralized systems on the Internet.
+to build decentralized systems on the Internet. It is our hope that software developers will become
+more aware of the technical, political, economic and cultural implications of the proposed solutions
+to this violation of the end to end principal.
+
+Despite the Edward Snowden apocalypse, many technologists are stuck in the post-surveillance mindset and
+don't give much thought to providing anonymity guarantees. When a software developer releases communication
+software, there should be more thought with regards to social responsibility; Does my software allow
+rich corporations to become richer? Does my software system create excess or ambient authority?
+
 
 
 NAT penetration tradeoffs chart
