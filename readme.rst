@@ -14,7 +14,7 @@ to this violation of the end to end principal.
 Despite the Edward Snowden apocalypse, many technologists are stuck in the post-surveillance mindset and
 don't give much thought to providing anonymity guarantees. When a software developer releases communication
 software, there should be more thought with regards to social responsibility; Does my software allow
-rich corporations to become richer? Does my software system create excess or ambient authority?
+rich corporations to become richer? Does my software system create excess or `ambient authority`_?
 
 
 
@@ -60,3 +60,9 @@ References
 .. [RFC5766] Traversal Using Relays around NAT (TURN)
 .. [RFC6886] NAT Port Mapping Protocol (NAT-PMP)
 .. [RFC6887] Port Control Protocol (PCP)
+
+
+
+
+
+.. _`ambient authority`: http://www.erights.org/talks/no-sep/
