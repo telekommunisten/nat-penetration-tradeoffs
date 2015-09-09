@@ -63,6 +63,8 @@ References
 .. [RFC5766] Traversal Using Relays around NAT (TURN)
 .. [RFC6886] NAT Port Mapping Protocol (NAT-PMP)
 .. [RFC6887] Port Control Protocol (PCP)
+.. [RFC6970] Universal Plug and Play (UPnP)
+
 
 
 
