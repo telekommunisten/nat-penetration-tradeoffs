@@ -56,18 +56,17 @@ conclusion
 ``````````
 
 The first obstacle software developers encounter when building decentralized systems is this NAT problem;
-to solve this problem with ICE, NAT-PMP or UPnP is to depend on the quality of the NAT device being utilized.
-For many applications the higher latency of onion services can be tolerated in exchange for a more reliable solution.
-
-Tor project is currently working to improve onion services;
-with the implementations of `Tor Prop 224`_ and `Tor Prop 250`_
+to solve this problem with NAT-PMP or UPnP is to depend on the quality of the NAT device being utilized. Furthermore
+if Alice and Bob are both behind partial-cone NAT devices then utilizing ICE implies failing back to a TURN proxy server;
+the single point of failure. For many applications the higher latency of onion services can be tolerated in exchange
+for a more reliable solution.
 
 
 Tor design documents
 ````````````````````
 
 - `Tor Prop 224`_ - Next-Generation Hidden Services in Tor 
-- `Tor Prop 250`_ - Random Number Generation  During Tor Voting
+- `Tor Prop 250`_ - Random Number Generation During Tor Voting
 
 
 .. _`Tor Prop 224`: https://gitweb.torproject.org/torspec.git/tree/proposals/224-rend-spec-ng.txt
