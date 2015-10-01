@@ -62,8 +62,8 @@ the single point of failure. For many applications the higher latency of onion s
 for a more reliable solution.
 
 
-Tor design documents
-````````````````````
+Tor design documents related to the next generation onion services
+``````````````````````````````````````````````````````````````````
 
 - `Tor Prop 224`_ - Next-Generation Hidden Services in Tor 
 - `Tor Prop 250`_ - Random Number Generation During Tor Voting
