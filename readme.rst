@@ -65,17 +65,6 @@ with the implementations of `Tor Prop 224`_ and `Tor Prop 250`_ we expect onion 
 preventing crawling and squatting of the onion service DHT.
 
 
-References
-----------
-
-.. [RFC5245] Interactive Connectivity Establishment (ICE) https://tools.ietf.org/html/rfc5245
-.. [RFC5389] Session Traversal Utilities for NAT (STUN) https://tools.ietf.org/html/rfc5389
-.. [RFC5766] Traversal Using Relays around NAT (TURN) https://tools.ietf.org/html/rfc5766
-.. [RFC6886] NAT Port Mapping Protocol (NAT-PMP) https://tools.ietf.org/html/rfc6886
-.. [RFC6887] Port Control Protocol (PCP) https://tools.ietf.org/html/rfc6887
-.. [RFC6970] Universal Plug and Play (UPnP) https://tools.ietf.org/html/rfc6970
-
-
 Tor design documents
 ````````````````````
 
@@ -85,6 +74,18 @@ Tor design documents
 
 .. _`Tor Prop 224`: https://gitweb.torproject.org/torspec.git/tree/proposals/224-rend-spec-ng.txt
 .. _`Tor Prop 250`: https://gitweb.torproject.org/torspec.git/tree/proposals/250-commit-reveal-consensus.txt
+
+
+RFC references
+``````````````
+
+.. [RFC5245] Interactive Connectivity Establishment (ICE) https://tools.ietf.org/html/rfc5245
+.. [RFC5389] Session Traversal Utilities for NAT (STUN) https://tools.ietf.org/html/rfc5389
+.. [RFC5766] Traversal Using Relays around NAT (TURN) https://tools.ietf.org/html/rfc5766
+.. [RFC6886] NAT Port Mapping Protocol (NAT-PMP) https://tools.ietf.org/html/rfc6886
+.. [RFC6887] Port Control Protocol (PCP) https://tools.ietf.org/html/rfc6887
+.. [RFC6970] Universal Plug and Play (UPnP) https://tools.ietf.org/html/rfc6970
+
 
 
 .. _`ambient authority`: http://www.erights.org/talks/no-sep/
