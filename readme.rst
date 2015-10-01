@@ -73,6 +73,7 @@ References
 .. [RFC5766] Traversal Using Relays around NAT (TURN) https://tools.ietf.org/html/rfc5766
 .. [RFC6886] NAT Port Mapping Protocol (NAT-PMP) https://tools.ietf.org/html/rfc6886
 .. [RFC6887] Port Control Protocol (PCP) https://tools.ietf.org/html/rfc6887
+.. [RFC6970] Universal Plug and Play (UPnP) https://tools.ietf.org/html/rfc6970
 
 
 Tor design documents
