@@ -73,8 +73,8 @@ Tor design documents related to the next generation onion services
 .. _`Tor Prop 250`: https://gitweb.torproject.org/torspec.git/tree/proposals/250-commit-reveal-consensus.txt
 
 
-RFC references
-``````````````
+NAT penetration RFC references
+``````````````````````````````
 
 .. [RFC5245] Interactive Connectivity Establishment (ICE) https://tools.ietf.org/html/rfc5245
 .. [RFC5389] Session Traversal Utilities for NAT (STUN) https://tools.ietf.org/html/rfc5389
