@@ -16,6 +16,7 @@ don't give much thought to providing anonymity guarantees. When a software devel
 software, there should be more thought with regards to social responsibility; Does my software allow
 rich corporations to become richer? Does my software system create excess or `ambient authority`_?
 
+.. _`ambient authority`: http://www.erights.org/talks/no-sep/
 
 
 NAT penetration tradeoffs chart
@@ -51,18 +52,15 @@ NAT penetration tradeoffs chart
 
 
 
-evaluation of designs
-`````````````````````
+conclusion
+``````````
 
 The first obstacle software developers encounter when building decentralized systems is this NAT problem;
 to solve this problem with ICE, NAT-PMP or UPnP is to depend on the quality of the NAT device being utilized.
-Often for many applications the tradeoffs in using Tor onion services is a much better choice that results in
-a easier to deploy and more reliable solution. Furthermore using Tor onion services as a NAT penetrating transport
-can significantly reduce the amount of work needed.
+For many applications the higher latency of onion services can be tolerated in exchange for a more reliable solution.
 
 Tor project is currently working to improve onion services;
-with the implementations of `Tor Prop 224`_ and `Tor Prop 250`_ we expect onion service quality to improve significantly by
-preventing crawling and squatting of the onion service DHT.
+with the implementations of `Tor Prop 224`_ and `Tor Prop 250`_
 
 
 Tor design documents
@@ -85,7 +83,3 @@ RFC references
 .. [RFC6886] NAT Port Mapping Protocol (NAT-PMP) https://tools.ietf.org/html/rfc6886
 .. [RFC6887] Port Control Protocol (PCP) https://tools.ietf.org/html/rfc6887
 .. [RFC6970] Universal Plug and Play (UPnP) https://tools.ietf.org/html/rfc6970
-
-
-
-.. _`ambient authority`: http://www.erights.org/talks/no-sep/
